@@ -1,0 +1,79 @@
+<!-- 
+【課題】
+2022年4月23日0時0分0秒～2022年4月30日23時59分59秒まで要素を表示させる
+
+【お店やサービスのキャンペーン開始（終了）のカウントダウンページを作る】
+
+4月22日以前、5月1日以降は要素はページ上に表示させない
+表示させている間は要素内にカウントダウンタイマーを設置する。
+3日前からは「あと3日」～「あと1日」、「本日最終日（いよいよスタート！）」の様な煽り文を加える※文言は自由です
+カウントダウンタイマーはCSSを使用して装飾をしてください。
+
+WFの指定はないのでメニューを足すなりは自由です。
+画像を使用する場合はフリー素材か自作（絵や写真）でお願いします。
+
+
+
+〜マジックナンバー〜
+・魔法の数字（皮肉）
+→魔法は使うな！！！！
+→魔法に頼ると、後々正しい命名ができなくなる。
+
+（悪い例）
+if(status===1){
+}
+→1ってなんやねん。
+
+（良い例）
+let success=1
+if(status===success){
+}
+→綺麗なプログラムは英単語で見える。
+
+
+〜命名規則〜
+・郵便番号
+×：Ubinbango
+○：postcode
+→○の方が読みやすい
+→英語に置き換えられるのは英語に置き換える。
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3年前に遡った気持ちでお開きください</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <div id="countdown">
+        <h1>令和まで残り</h1>
+        <span id="time_d"></span>日と<span id="time_h"></span>時<span id="time_m"></span>分<span id="time_s"></span>秒
+    </div>
+
+    
+    <div id="alert_final">
+        <h1>本日最終日！！！！</h1>
+    </div>
+    <div id="alert_a">
+        <h1>あと1日！！！！</h1>
+    </div>
+    <div id="alert_b">
+        <h1>あと2日！！！！</h1>
+    </div>
+    <div id="alert_c">
+        <h1>あと3日！！！！</h1>
+    </div>
+
+
+</body>
+<script src="./js/countdown.js"></script>
+<script src="./js/open.js"></script>
+</html>

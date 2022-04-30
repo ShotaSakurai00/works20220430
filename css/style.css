@@ -1,0 +1,35 @@
+
+
+#countdown{
+    display: none;
+}
+#countdown.open{
+    display:block;
+}
+
+#alert_final{
+    display: none;
+}
+#alert_final.open{
+    display:block;
+}
+#alert_a{
+    display: none;
+}
+#alert_a.open{
+    display:block;
+}
+
+#alert_b{
+    display: none;
+}
+#alert_b.open{
+    display:block;
+}
+
+#alert_c{
+    display: none;
+}
+#alert_c.open{
+    display:block;
+}
