@@ -33,3 +33,9 @@
 #alert_c.open{
     display:block;
 }
+
+#time_d,#time_h,#time_m,#time_s{
+    font-weight: bold;
+    color: crimson;
+
+}
